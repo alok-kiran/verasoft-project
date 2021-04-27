@@ -1,0 +1,232 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 18px;
+}
+.name{
+  text-align: left;
+}
+.startIcon{
+  color: gray;
+  
+}
+.nameText{
+  margin-left: 12px;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  font-size: 35;
+}
+.btn{
+  border-radius: 4px;
+  padding: 10px 56px 10px 56px;
+  color: white;
+  background-color: #404040;
+  cursor: pointer;
+}
+.details{
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  justify-content: flex-start;
+}
+.itemOne{
+  flex: 1;
+  background-color: #EDF5FF;
+  padding: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profileIcon{
+  font-size: 72px;
+}
+.gender{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 10px;
+  margin-top: 12px;
+}
+.itemTwo{
+  margin-left: 5px;
+  flex: 2;
+  background-color: #EDF5FF;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.idNumber{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 0px;
+}
+.smallText{
+  font-size: 12px;
+  text-align: left;
+  line-height: 17px;
+  font-family: sans-serif;
+  margin-top: 3px;
+  margin-left: 12px;
+}
+.itemThree{
+  background-color: white;
+  display: flex;
+  flex: 5;
+  margin-right: 3px;
+  margin-left: 5px;
+  flex-direction: column;
+}
+.itemFour{
+  flex: 2;
+  background-color: #EDFFED;
+  margin-left: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.title{
+  text-align: center;
+  font-size: 12px;
+  line-height: 17px;
+  padding-top: 7px;
+}
+.status{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  padding-left: 53px;
+  padding-right: 53px;
+}
+.messageType{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  padding-left: 53px;
+  padding-right: 53px;
+  margin-top: 8px;
+  height: 59px;
+}
+.dateOfStart{
+  background-color: #EDFFED;
+  opacity: 0.2;
+  height: 24px;
+  border: 1px solid #000000;
+  z-index: 9999;
+}
+.footerText{
+  background-color: #EDFFED;
+  opacity: 0.2;
+  height: 24px;
+  border: 1px solid #000000;
+  z-index: 9999;
+  margin-top: 22px;
+}
+.since{
+  font-size: 10px;
+  text-align: center;
+  padding-top: 5px;
+  color: #333333;
+}
+.activityText{
+  background-color: #EDF5FF;
+  text-align: center;
+  //padding-top: 7px;
+  font-size: 12px;
+  margin-bottom: 7px;
+}
+.mediums{
+  margin-top: -7px;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  height: 90px;
+}
+.mediumOne{
+  flex: 1;
+  background-color: #EDF5FF;
+}
+.mediumTwo{
+  flex: 1;
+  background-color: #EDF5FF;
+  margin-right: 1px;
+  margin-left: 2px;
+}
+.mediumThree{
+  flex: 1;
+  background-color: #EDF5FF;
+  margin-left: 1px;
+}
+.genderEmpty{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 10px;
+  margin-top: 12px;
+  opacity: 0;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+.modal-main {
+  background: black;
+  opacity: 0.5;
+  width: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.display-block {
+  display: block;
+}
+.display-none {
+  display: none;
+}
+.closeIcon{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding-top: 330px;
+  padding-bottom: 330px;
+}
+.firstIcon{
+  padding-right: 40px;
+}
+.processing{
+  flex: 1;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 300px;
+  padding-bottom: 500px;
+  width: 100%;
+}
+.spinnerText{
+  font-size: 32px;
+  color: white;
+}
+.crossIcon{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.iconDiv{
+  background-color: #000000;
+}
+.iconTwo{
+  cursor: pointer;
+  margin-right: 30px;
+  margin-top: 30px;
+}
